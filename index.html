@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en">
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <!--调整主题--> 
+  <!-- Theme: Simple -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
+  <link rel="stylesheet" href="path/to/prismjs-theme.css">
+  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+  
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MNR27JVX3D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MNR27JVX3D');
+  </script>
+</head>
+
+<style>
+  :root {
+    --base-font-size: 16px;
+    --theme-color   : purple;
+    --base-line-height: 1.6;
+  }
+
+  .page_toc ul a {
+  color: rgb(79, 79, 79);
+  text-decoration: none;
+  font-weight: 330;
+  line-height: 1.6em;
+  font-size: 14px;
+}
+
+.nav {
+  width: var(--toc-width, 250px);
+}
+
+.page_toc ul a:hover span {
+  color: var(--text-color-tertiary, purple);
+}
+
+
+</style>
+
+<body>
+ 
+
+  <div id="app"></div>
+  <!-- 加入插件 -->
+  <script>
+    window.$docsify = {
+      loadSidebar: true,
+
+      loadNavbar: true,
+      
+      subMaxLevel: 0,
+
+      name: "xiahan's blog",
+      
+      
+      toc: {
+        scope: '.markdown-section',
+        headings: 'h1, h2',
+        // title: 'Table of Contents',
+      },
+
+      footer: {
+      copy: '<span>xiahan &copy; 2022</span>',
+      // auth: 'by Me',
+      pre: '<hr/>',
+      style: 'text-align: right;',
+      class: 'className',
+    },
+  
+  };
+  </script> 
+  
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>  
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>
+  <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+
+
+
+</body>
+</html>
