@@ -1,7 +1,7 @@
 # 喜欢玩游戏,迟迟未行动
 
-我是夏晗,在2022年里,是6年的数据产品经理
-已经离职,正在从坐班产品经理转型[数字游民](https://jarodise.com/the-ultimate-guide-to-digital-nomad-lifestyle-2022-post-pandemic-version)
+我是夏晗,在2022年里,是6年的数据产品经理  
+已经离职,正在从坐班产品经理转型[数字游民](https://jarodise.com/the-ultimate-guide-to-digital-nomad-lifestyle-2022-post-pandemic-version)  
 博客会记录探索[蓬勃人生](https://sunnyhuang.net/cmty/model_idealife)历程
 
 

@@ -1,5 +1,6 @@
 - [About me](/)
-
+- [转型数字游民(digtalNomad)](/digtalNomad/intro.md)
+  - [1 裁员后开篇 2022-05-23](/digtalNomad/start.md)
 
 - [Tableau certified data analyst](/TableauCDA/intro.md)
   - [1.1 datasource-desktop](/TableauCDA/datasource-desktop.md)
