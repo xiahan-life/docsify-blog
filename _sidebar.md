@@ -1,4 +1,4 @@
-- [Home](/)
+- [About me](/)
 
 
 - [Tableau certified data analyst](/TableauCDA/intro.md)
